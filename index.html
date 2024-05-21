@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dreams Expeditions</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#">Pacotes</a></li>
+                <li><a href="#">Taxas</a></li>
+                <li><a href="#">Contato</a></li>
+            </ul>
+        </nav>
+        <h1>Descubra Seu Próximo Destino Dreams</h1>
+    </header>
+    <section id="pacotes">
+        <h2>Conheça Nossos Pacotes</h2>
+        <p>
+            Bem-vindo à Dreams Expeditions, sua passagem para aventuras além da imaginação e destinos que despertam a
+            alma! Nossa agência de turismo não é apenas um intermediário entre você e suas férias dos sonhos; somos seus
+            companheiros de viagem, curadores de experiências excepcionais e arquitetos de memórias inesquecíveis.
+            <br><br>
+            <hr>
+        </p>
+        <div class="figuras">
+        <figure class="col text-center">
+            <img src="img/nossos-packs/grecia.jpg" width="320" height="205" alt="grecia">
+            <figcaption>Noronha</figcaption>
+        </figure>
+        <figure class="col text-center">
+            <img src="img/nossos-packs/paris.jpg" width="320" height="205" alt="Paris">
+            <figcaption>Paris</figcaption>
+        </figure>
+        <figure class="col text-center">
+            <img src="img/nossos-packs/nyc.jpg" width="320" height="205" alt="Nova Iorque">
+            <figcaption>Nova Iorque</figcaption>
+        </figure>
+        </div>
+    </section>
+    <section>
+        <form method="GET" action="">
+
+            <fieldset>
+                <legend>
+                    <h2>Dados da Viagem</h2>
+                </legend>
+                <label>Nome</label><br>
+            <input type="text" name="nome"><br><br>
+
+            <label>Data de Ida</label><br>
+            <input type="date" name="dataIda"><br><br>
+
+            <label>Data de Volta</label><br>
+            <input type="date" name="dataVolta"><br><br>
+
+            <label>Quantidade de Pessoas</label><br>
+            <input type="number" name="qtdPessoas"><br><br>
+            </fieldset>
+            
+
+            <fieldset>
+            <legend>
+                <h2>Escolha os serviços:</h2>
+            </legend>
+            <label>
+                <input type="checkbox" name="passagens" value="Passagens">Compra de Passagens<br>
+            </label>
+            <label>
+                <input type="checkbox" name="hospedagem" value="Hospedagem">Reserva de Hospedagem<br>
+            </label>
+            <label>
+                <input type="checkbox" name="veiculos" value="Veículo">Reserva de Veículos<br>
+            </label>
+                <h3>Escolha a forma de pagamento:</h3>
+            <label>
+                <input type="radio" name="formadePagamento" value="Cartão de Crédito">Cartão de Crédito
+            </label>
+            <label>
+                <br><input type="radio" name="formadePagamento" value="Boleto">Boleto
+            </label>
+            <label>
+                <br><input type="radio" name="formadePagamento" value="PIX">PIX
+            </label>
+                <h3>Escolha prazo para pagamento</h3>
+            <label>
+                <select name="prazpPagamento">
+                    <option value="aVista">À vista</option>
+                    <option value="5x">5x sem juros</option>
+                    <option value="10" selected>10x com juros</option>     
+                    
+                </select>
+            </label>
+            </fieldset>
+            </section>
+    <section>
+        <fieldset>
+        <legend>
+            <h2>Fale Conosco</h2>
+        </legend>
+        <form method="GET" action="">
+            <label>Email</label><br>
+            <input type="email" required name="email"><br><br>
+
+            <label>Cometário</label><br>
+            <textarea rows="5" name="comentario"></textarea><br>
+            <button>Salvar</button>
+        </form>
+        </fieldset>
+    </section>
+
+    <section>
+        <fieldset>
+        <legend>
+        <h2>Taxas e Serviços</h2>
+        </legend>
+    <p>Descrição: Na Dreams Expeditions, a transparência é fundamental em todas as etapas de sua jornada de viagem.
+        Nossa estrutura de taxas e serviços é projetada para oferecer clareza e valor agregado a cada cliente.</p>
+    <table>
+        <caption>Descrição dos serviços e valores</caption>
+        <thead>
+            <tr>
+                <th>
+                Serviço
+                </th>
+                <th>
+                    Valor
+                </th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>
+                    Reserva de Hotel
+                </td>
+                <td>
+                    R$ 500.00
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    Compra de Passagens
+                </td>
+                <td>
+                    R$ 100.00
+                </td>
+            <tr>
+                <td>
+                    Aluguel de Carros
+                </td>
+                <td>
+                    R$ 50.00
+                </td>
+            </tr>
+            </tr>
+        </fieldset>
+        </section>
+        </tbody>
+        <tfoot>
+
+        </tfoot>
+    </table>
+    <footer>
+        <p>Desenvolvido por Aline Freitas</p>
+    </footer>
+</body>
+
+</html>

@@ -1,0 +1,91 @@
+body{
+    font-weight: 400;
+    font-family: Lato, Lato, Helvetica, sans-serif;
+    font-size: 15px;
+    line-height: 2.2em;
+    color: black;
+    margin: 0;
+    background-image: linear-gradient(to right, #a2d4ef, rgb(247, 246, 231));
+}
+
+header{
+    background-color: #00BFFF;
+}
+
+section, footer{
+    margin: 40px;
+}
+
+h1{
+    font-size: 63px;
+    color: black;
+    padding: 15px;
+    color: white;
+    text-align: center;
+}
+
+h2{
+    font-size: 24x;
+    text-transform: uppercase;
+    color: black;
+    font-weight: 600;
+}   
+
+nav li a{
+    padding: 10px;
+    color: white;
+    text-decoration: none;
+}
+
+nav li{
+    float: left;
+}
+
+nav ul{
+    float: right;
+    list-style: none;
+
+}
+
+nav{
+    font-size: 14px;
+    color: #e4e28c;
+    letter-spacing: 4px;
+    height: 50px;
+    background-color: #12415e;
+    padding-right: 40px;
+   
+}
+
+table{
+    width: 100%;
+}
+
+table td{
+    color:#12415e;
+    padding: 5px;
+}
+
+table tr:nth-child(even){
+    background-color: #e4e28c
+
+}
+
+table tr:nth-child(odd){
+    background-color: #9de0f6
+    
+}
+
+table thead th{
+    background-color: #12415e;
+    color: white;
+}
+
+#pacotes .figuras figure{
+    display: inline-block;
+}
+
+#pacotes .figuras{
+    text-align: center;
+
+}
